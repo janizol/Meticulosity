@@ -1,0 +1,13 @@
+{
+  "name": "meticulosity_customer_attribute",
+  "description": "Adding customer attribute module for Magento 2",
+  "type": "magento2-module",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Meticulosity\\CustomerAttribute\\": ""
+    }
+  }
+}
